@@ -1,0 +1,15 @@
+
+
+.timer{
+    position: relative;
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #7f7f7f;
+    vertical-align: top;
+    padding-top: 7px;
+}
+.time_margin{
+    margin-left:5px;
+}

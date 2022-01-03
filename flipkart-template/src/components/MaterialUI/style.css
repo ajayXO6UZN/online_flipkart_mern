@@ -1,0 +1,159 @@
+
+  a , img{
+    text-decoration: none;
+  }
+  .dropdown-content {
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 16px 18px;
+  }
+  
+  .dropdown:hover .main-content {
+    display: block;
+    top: 46px;
+    left: -56px;
+    z-index: 9999;
+  }
+  
+  .dropdown {
+    position: relative;
+    cursor: pointer;
+    height:100%;
+    align-items: center;
+    display: flex;
+    padding: 0px 0px 0px 0px;
+  }
+  .drop-signup{
+      color:#2874f0;
+      cursor: pointer;
+  }
+
+.dropdown-header{
+    font-weight: 500;
+}
+
+.drop-main-header{
+    display: flex;
+    min-width:200px;
+}
+.dropdown-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.customer{
+    color: black;
+}
+
+.main-content{
+    display:none;
+    position:absolute;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 10px solid white;
+    position: relative;
+    left: 94px;
+  }
+  .login-btn{
+    padding: 6px 39px 7px 39px;
+    background: white;
+    color:#2874f0;
+    font-weight: 500;
+  }
+
+  .searchFlipkart{
+    min-width:67%;
+    display: flex;
+  }
+
+ 
+
+  .dropdown-item{
+    display: flex;
+    min-width: 233px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 16px 18px;
+  }
+
+  .dropdown-anchor{
+    font-weight: 400;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .profile{
+    color: black;
+    margin-left: 12px;
+  }
+
+ 
+  .user-icon{
+    color: #2874f0;
+    font-size: 18px;
+    margin-top: 3px;
+  }
+
+  .dropdown .rest-dropdown li:hover {
+    background-color:#fafafa;
+    z-index: 1;
+  }
+
+  .more{
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+    height:100%;
+
+  }
+
+  .shopping-cart{
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    min-width: 7%;
+    cursor: pointer;
+    height:100%;
+  }
+
+.cart-icon{
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+.cart-text{
+  margin-left: 5px;
+}
+
+.bluebtn{
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+}
+
+.blue_btn{
+  display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    cursor: pointer;
+    outline: none;
+ 
+}

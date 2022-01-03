@@ -1,0 +1,392 @@
+:root{
+  background: #f1f3f6;
+}
+* {
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #2874f0;
+    height: 56px;
+    color: #f0f0f0;
+}
+.sub-header{
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;   
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo img{
+    width:75px;
+}
+.explore{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+}
+.plus{    
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+.searchInputContainer {
+    /* width: 560px; */
+    position: relative;
+    background: #fff;
+    height: 36px;
+    border-radius: 1px;
+    /* overflow: hidden;
+    display: flex; */
+    z-index:10;
+    margin: 0 auto 0 12px;
+  }
+.searchInput {
+    width: 518px;
+    border: 0;
+    height: 36px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+.searchIconContainer {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  }
+
+  .breadcrumb-part1{
+      background: #fff;
+    height: 112px;
+  }
+  .flex-demo{
+      display: flex;
+      width:100%;
+  }
+
+  .bread-container{
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1235px;
+    display: flex;
+    background-color: #fff;
+  }
+
+  .box-shadow{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+ .bread-images{
+     height: 100%;
+ }
+
+ .bread-images{
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+ }
+ .breadcrumb-container{
+    left: 0;
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+ }
+
+ .bread-images{
+
+    position: sticky;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 826px;
+    color: #212121;
+ }
+ .offers{
+    font-weight: 500;
+    font-size: 14px;
+ }
+
+ .bread-images >a .offers:hover {
+    color:#2874f0;
+  }
+
+  .deals_with_poster{
+      display: flex;
+      flex-flow:row;
+      padding: 0px 0 0 10px;
+  }
+  .poster{
+    flex: 0 0 248px;
+    max-width: 248px;
+    padding: 0px 0px 10px 10px;
+  }
+
+  .deals_of_day{
+    flex-grow: 1;
+    overflow: auto;
+    padding: 0px 0px 10px 0px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    height: 340px;
+    margin-top: 6px;
+  }
+  .deals_border{
+    border-top: 1px solid #eaeaea;
+    /* height: 100%; */
+  }
+
+  .countdown-timer{
+      display: flex;
+      padding: 7px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    justify-content: space-between;
+  }
+  .deals{
+    font-size: 22px;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
+  }
+  .countdown_flex{
+    min-width: 79%;
+    display:flex;
+  }
+  .countdown_flex2{
+    min-width: 39%;
+    display:flex;
+  }
+
+  /* PRODUCT SLIDER CSS START */
+
+  .handle_pro_slider{
+      overflow: hidden;
+  }
+
+  .poster_item{
+    display: flex;
+    width: 195px;
+  }
+  .poster_anchor{
+    padding: 25px 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-height: 366px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .poster_img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .poster_img img {
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .poster_heading{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .poster_price{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+  }
+  .poster_brand{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: .6;
+    padding-top: 7px;
+  }
+ .Product_Slider{
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1506px;
+  height: 272px;
+  margin: auto;
+ }
+ .trending_poster{
+  padding: 0 4px 0px 13px;
+ }
+
+ /* FOOTER CSS START */
+ .footer{
+  margin-left: 65px;
+  width: 90%!important;
+  padding-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+ }
+ .footer_col{
+   flex: 1;
+ }
+ .footer_header{
+  color: #878787;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 9px;
+ }
+ .footer_anchor{
+  line-height: 2;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+ }
+ .main_footer{
+  background-color: #172337;
+  min-width: 978px;
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+ }
+ .footer_border{
+  font-size: 12px;
+  white-space: nowrap;
+  border-left: 1px solid #454d5e;
+  padding: 0 25px;
+ }
+ .footer_para{
+  font-style: normal;
+  color: #fff;
+  background-color: #172337;
+ }
+ .except_footer_border{
+  font-size: 12px;
+  white-space: nowrap;
+  padding: 0 25px;
+ }
+ .last_border{
+  border-top: 1px solid #454d5e;
+  padding: 25px 0;
+  margin-top: 40px;
+  width: 100%;
+ 
+  display: flex;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+ .footer_span{
+  color: #fff;
+  margin-left: 8px;
+ }
+ .shopping-cart2{
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  min-width: 17%;
+  cursor: pointer;
+  height: 100%;
+ }
+
+ .cartIcon{
+   color:white
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.location-search-input{
+  font-family: 'Lato', sans-serif;
+  width: 500px;
+  height: 40px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  margin-top: 300px;
+  margin-left: 5rem;
+
+}
+
+.input-suggestion{
+  font-family: 'Lato', sans-serif;
+  width: 500px;
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px black dotted;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 5rem;
+}
+
+.autoContainer{
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    /* border-top: none; */
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.option{
+    user-select: auto;
+    padding: 10px;
+    color:#878787;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}

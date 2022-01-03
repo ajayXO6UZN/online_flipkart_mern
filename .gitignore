@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+/flipkart-template/node_modules
+/flipkart-template/.pnp
+/flipkart-template/.pnp.js
+
+# testing
+/flipkart-template/coverage
+
+# production
+/flipkart-template/build
+
+# misc
+/backend/config/config.env
+/flipkart-template/.DS_Store
+/flipkart-template/.env.local
+/flipkart-template/.env.development.local
+/flipkart-template/.env.test.local
+/flipkart-template/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
